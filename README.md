@@ -1,4 +1,4 @@
-# Google Analytics Beacon [![Analytics](https://ga-beacon.appspot.com/UA-71196-10/ga-beacon/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+# Google Analytics Beacon [![Analytics](http://ga.rebill.info:8080/UA-5149421-7/github.com/rebill/ga-beacon?pixel)](https://github.com/rebill/ga-beacon)
 
 Sometimes it is impossible to embed the JavaScript tracking code provided by Google Analytics: the host page does not allow arbitrary JavaScript, and there is no Google Analytics integration. However, not all is lost! **If you can embed a simple image (pixel tracker), then you can beacon data to Google Analytics.** For a great, hands-on explanation of how this works, check out [Using a Beacon Image for GitHub, Website and Email Analytics](http://www.sitepoint.com/using-beacon-image-github-website-email-analytics/). 
 
@@ -43,6 +43,9 @@ If you prefer, you can skip the badge and use a transparent pixel. To do so, sim
 
 And that's it, add the tracker image to the pages you want to track and then head to your Google Analytics account to see real-time and aggregated visit analytics for your projects!
 
+### Stand-alone
+
+If you want to deploy code on your own server, you can run `stand-alone.go` as you need.
 
 ### FAQ
 
